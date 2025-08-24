@@ -1,0 +1,70 @@
+# Médico de Bolso - Dependências do Projeto
+
+# Bot do Telegram
+python-telegram-bot==20.7
+
+# Google Gemini AI
+google-generativeai==0.3.2
+
+# Comunicação HTTP/API
+aiohttp==3.9.1
+requests==2.31.0
+
+# Variáveis de ambiente
+python-dotenv==1.0.0
+
+# Processamento de dados
+numpy==1.24.3
+pandas==2.0.3
+
+# Processamento de texto
+nltk==3.8.1
+regex==2023.10.3
+
+# Logging e monitoramento
+loguru==0.7.2
+
+# Utilitários de data/hora
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Validação de dados
+pydantic==2.5.0
+
+# Processamento JSON
+orjson==3.9.10
+
+# Criptografia (para tokens seguros)
+cryptography==41.0.7
+
+# Cliente HTTP assíncrono
+httpx==0.25.2
+
+# Utilitários de sistema
+psutil==5.9.6
+
+# Desenvolvimento e testes
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Banco de dados (opcional para persistência)
+sqlite3
+
+# Processamento de imagens (para futuras funcionalidades)
+Pillow==10.1.0
+
+# Análise de sentimentos (para contexto emocional)
+textblob==0.17.1
+
+# Cache em memória
+cachetools==5.3.2
+
+# Configuração avançada
+pyyaml==6.0.1
+
+# Monitoramento de performance
+psutil==5.9.6
+memory-profiler==0.61.0
