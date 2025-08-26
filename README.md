@@ -69,6 +69,36 @@
 
 ## 📁 Arquitetura do Projeto
 
+```
+mangaba-telegram/
+├── 📂 src/                           # 🏗️ Código fonte principal
+│   ├── 🤖 ai/                       # Módulos de Inteligência Artificial
+│   │   ├── mangaba_ai_core.py       # 🧠 Sistema integrado MCP + A2A
+│   │   ├── conversation_agents.py   # 👥 Agentes de conversação A2A
+│   │   ├── gemini_client.py         # 🔮 Cliente IA Gemini
+│   │   └── quick_responses.py       # ⚡ Engine de respostas rápidas
+│   ├── 🤖 bot/                      # Bot Telegram
+│   │   └── handlers.py              # 📨 Handlers de mensagens
+│   ├── ⚙️ config/                   # Configurações
+│   │   └── settings.py              # 🔧 Configurações do sistema
+│   ├── 🔗 mcp/                      # Model Context Protocol
+│   │   └── client.py                # 🌐 Cliente MCP
+│   ├── 🩺 medical/                  # Sistema médico
+│   │   └── triage.py                # 🚨 Sistema de triagem
+│   ├── 🛠️ utils/                    # Utilitários
+│   │   ├── logger.py                # 📝 Sistema de logs
+│   │   └── session_manager.py       # 💾 Gerenciador de sessões
+│   └── __init__.py                  # 📦 Exports principais (mangaba_ai)
+├── 📚 docs/                         # Documentação técnica
+│   ├── MANGABA_AI_MCP_A2A.md       # 🔗 Sistema integrado
+│   ├── CONVERSACAO_DINAMICA.md     # 💬 Sistema A2A
+│   └── MANGABA_AI.md               # 📖 Documentação geral
+├── 🚀 main.py                       # Ponto de entrada principal
+├── 📋 requirements.txt              # Dependências Python
+├── 🔐 .env.example                  # Exemplo de configurações
+└── 📄 README.md                     # Este arquivo
+```
+
 ## 🚀 Executando o Sistema
 
 ### 🎯 **Execução Básica**
